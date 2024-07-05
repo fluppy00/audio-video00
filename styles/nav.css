@@ -20,3 +20,17 @@ nav  li a{
     text-decoration: none;
     color: black;
 }
+
+
+/* Nested menu styles */
+nav li .dropdown{
+    display: none;
+    /* position: absolute; */
+    padding-left: 10px;
+    background-color: gray;
+
+}
+
+nav li:hover .dropdown{
+display: block;
+}
